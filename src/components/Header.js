@@ -5,7 +5,7 @@ const Header = (props) => {
     <nav className="navbar">
       <div className="container-fluid">
         <div className="navbar-header">
-          <a className="navbar-brand" href="/Agricart-online-vegetable-shopping-reactjs">{props.title}</a>
+          <a className="navbar-brand" href="/Medi-fast-react-js">{props.title}</a>
         </div>
         <ul className="nav navbar-nav navbar-right">
           <li className="active"><a onClick={()=>props.buy("products")}> <i className="glyphicon glyphicon-search icon"></i>Products</a></li>

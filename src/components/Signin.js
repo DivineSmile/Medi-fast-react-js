@@ -10,7 +10,7 @@ const Signin = (props) => {
   return(
     <div className="login-form">
     <form action="/examples/actions/confirmation.php" method="post">
-        <p className="text-center heading">AGRI-CART</p>
+        <p className="text-center heading">MEDI-Fast</p>
         <h2 className="pull-left">Welcome Back</h2>     
         <p className="pull-left">Sign in with your email address or mobile number.</p>
 
@@ -27,7 +27,7 @@ const Signin = (props) => {
             <label className="pull-left checkbox-inline"><input type="checkbox"/> Remember me</label>
             <a href="#" className="pull-right">Forgot Password?</a> 
         </div>         */}
-    <p className="text-center">New to Agri-Cart? <a onClick={()=>props.buy("signup")}>Create an Account</a></p>
+    <p className="text-center">New to Medi-Fast? <a onClick={()=>props.buy("signup")}>Create an Account</a></p>
     </form>
 </div>
 
